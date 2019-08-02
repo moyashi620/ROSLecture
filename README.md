@@ -40,4 +40,15 @@ By display typeタブでは"RobotModel"を，By topicタブでは"map/Map"と，
 |![](https://user-images.githubusercontent.com/53034346/62365424-07451800-b55f-11e9-9106-a2115066840b.png)|![](https://user-images.githubusercontent.com/53034346/62365456-1c21ab80-b55f-11e9-8ce6-a08d0d425081.png)|
 
 4. 追加すると，以下の画像のような状態になる．
-<img src = "">
+<img src = "https://user-images.githubusercontent.com/53034346/62366701-96076400-b562-11e9-8012-7851ff314204.png">
+
+5. 画面左の"Displays"メニューの中に手順3で追加した"Map"の中のTopicを"/move_base/global_costmap/costmap"とする．
+
+6. 描画の向きを調整し，手順5を適用すると以下の画像のようになる．
+<img src = "https://user-images.githubusercontent.com/53034346/62368456-95250100-b567-11e9-8df3-81c819c36d67.png">
+
+## 実際のナビゲーション
+
+　rviz上で，生成された環境地図とロボットが表示されたら，上部ボタンの"2D Nav Goal"でロボットの移動先を指定する．すると，画像のように軌道が生成され，ロボットが移動を開始する．
+
+<img src = "https://user-images.githubusercontent.com/53034346/62372051-6ad84100-b571-11e9-9d88-fa32ee1d4943.png">
