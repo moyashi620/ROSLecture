@@ -34,7 +34,10 @@ $ rosrun rviz rviz
 
 3. ロボットを表示させるために，起動直後の左下の"Add"をクリックする．<br>
 By display typeタブでは"RobotModel"を，By topicタブでは"map/Map"と，"move_base/NavfnROS/plan/Path"を追加する．<br>
-<img src = "https://user-images.githubusercontent.com/53034346/62365424-07451800-b55f-11e9-9106-a2115066840b.png"> <img src = "https://user-images.githubusercontent.com/53034346/62365456-1c21ab80-b55f-11e9-8ce6-a08d0d425081.png">
+
+|By display type|By topic|
+|---|---|
+|![](https://user-images.githubusercontent.com/53034346/62365424-07451800-b55f-11e9-9106-a2115066840b.png)|![](https://user-images.githubusercontent.com/53034346/62365456-1c21ab80-b55f-11e9-8ce6-a08d0d425081.png)|
 
 4. 追加すると，以下の画像のような状態になる．
 <img src = "">
